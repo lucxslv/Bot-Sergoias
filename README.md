@@ -50,15 +50,11 @@ Instale as dependências:
 
 ```npm install```
 
-Rode o bot:
-
-```node bot.js```
-
 ---
 
 🔑 Configuração
 
-Crie um arquivo ".env" na raiz do projeto:
+Crie um arquivo "```.env```" na raiz do projeto e cole dentro:
 
 GROQ_API_KEY=sua_api_key_aqui
 
