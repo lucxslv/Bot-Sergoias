@@ -7,7 +7,8 @@ Automação web para resolução de desafios utilizando IA.
   <img src="https://img.shields.io/badge/Puppeteer-Automation-blue">
   <img src="https://img.shields.io/badge/AI-Groq%20API-orange">
   <img src="https://img.shields.io/github/license/lucxslv/Bot-Sergoias">
-</p>---
+</p>
+---
 
 📖 Sobre o Projeto
 
