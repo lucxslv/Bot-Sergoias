@@ -1,6 +1,6 @@
 require("dotenv").config();
 const puppeteer = require("puppeteer-core");
-const Groq = require("groq-sdk");  // Nova lib pra IA
+const Groq = require("groq-sdk");
 
 (async () => {
   const GROQ_API_KEY = process.env.GROQ_API_KEY;
@@ -29,7 +29,7 @@ const Groq = require("groq-sdk");  // Nova lib pra IA
   await page.keyboard.press("Enter");
   console.log("Login enviado");
 
-  await new Promise(r => setTimeout(r, 6000));  // Mais tempo pro login
+  await new Promise(r => setTimeout(r, 6000));
 
   console.log("Portal logado:", await page.url());
 
@@ -256,16 +256,16 @@ if (temTentarNovamente) {
 
   await new Promise(r => setTimeout(r, 5000));
 
-} // ← ESTA CHAVE ESTAVA FALTANDO
+}
 
 
-// Avançar questão (fora do iframe)
+// Avançar questão
 const avancou = await sagres.evaluate(() => {
 
   const botoes = [...document.querySelectorAll("button.nui-button-primary")];
 
   if (botoes.length > 0) {
-    const btn = botoes[botoes.length - 1]; // geralmente o último é avançar
+    const btn = botoes[botoes.length - 1];
     btn.click();
     return true;
   }
@@ -275,7 +275,7 @@ const avancou = await sagres.evaluate(() => {
 
 if (!avancou) {
   console.log("Não encontrou botão de avançar — provavelmente fim da atividade");
-  break; // sai do loop de questões
+  break;
 }
 
 console.log("Indo para próxima questão");
