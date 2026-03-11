@@ -8,6 +8,7 @@ Automação web para resolução de desafios utilizando IA.
   <img src="https://img.shields.io/badge/AI-Groq%20API-orange">
   <img src="https://img.shields.io/github/license/lucxslv/Bot-Sergoias">
 </p>
+
 ---
 
 📖 Sobre o Projeto
@@ -32,18 +33,6 @@ Esse projeto foi criado como experimento de automação + integração com IA.
 - Puppeteer
 - Groq API
 - Llama 3
-
----
-
-📂 Estrutura do Projeto
-
-Bot-Sergoias
-│
-├── bot.js
-├── package.json
-├── package-lock.json
-├── .env
-└── node_modules
 
 ---
 
@@ -86,14 +75,6 @@ O bot irá:
 
 ---
 
-⚠️ Aviso
-
-Este projeto foi desenvolvido para fins educacionais e de estudo de automação web.
-
-Use com responsabilidade.
-
----
-
 👨‍💻 Autor
 
 Lucas
@@ -121,20 +102,7 @@ O bot irá:
 4. Consultar a IA
 5. Marcar a resposta automaticamente
 
-📂 Estrutura do projeto
-
-Bot-Sergoias
-│
-├── bot.js
-├── package.json
-├── .env
-└── node_modules
-
-⚠️ Aviso
-
-Este projeto foi criado para fins educacionais e de estudo de automação web.
-
-Use com responsabilidade.
+---
 
 👨‍💻 Autor
 
