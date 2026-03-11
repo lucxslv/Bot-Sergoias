@@ -62,7 +62,7 @@ GROQ_API_KEY=sua_api_key_aqui
 
 ▶️ Executando o Bot
 
-node bot.js
+```node bot.js```
 
 O bot irá:
 
