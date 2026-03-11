@@ -23,8 +23,8 @@ const Groq = require("groq-sdk");
 
   await page.waitForSelector('input[placeholder="Usuário"]');
 
-  await page.type('input[placeholder="Usuário"]', "22120920127");
-  await page.type('input[placeholder="Senha"]', "Dh4BTBA71TBH");
+  await page.type('input[placeholder="Usuário"]', "sua_matricula");
+  await page.type('input[placeholder="Senha"]', "sua_senha");
 
   await page.keyboard.press("Enter");
   console.log("Login enviado");
