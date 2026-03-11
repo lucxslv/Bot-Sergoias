@@ -40,15 +40,21 @@ Esse projeto foi criado como experimento de automação + integração com IA.
 
 Clone o repositório:
 
-```git clone https://github.com/lucxslv/Bot-Sergoias.git```
+```bash
+git clone https://github.com/lucxslv/Bot-Sergoias.git
+```
 
 Entre na pasta:
 
-```cd Bot-Sergoias```
+```bash
+cd Bot-Sergoias
+```
 
 Instale as dependências:
 
-```npm install```
+```bash
+npm install
+```
 
 ---
 
@@ -62,7 +68,9 @@ GROQ_API_KEY=sua_api_key_aqui
 
 ▶️ Executando o Bot
 
-```node bot.js```
+```bash
+node bot.js
+```
 
 O bot irá:
 
@@ -79,4 +87,4 @@ O bot irá:
 
 Lucas
 
-GitHub: https://github.com/lucxslvcd
+GitHub: https://github.com/lucxslv
