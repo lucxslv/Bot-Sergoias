@@ -40,15 +40,15 @@ Esse projeto foi criado como experimento de automação + integração com IA.
 
 Clone o repositório:
 
-git clone https://github.com/lucxslv/Bot-Sergoias.git
+´´´git clone https://github.com/lucxslv/Bot-Sergoias.git´´´
 
 Entre na pasta:
 
-cd Bot-Sergoias
+´´´cd Bot-Sergoias´´´
 
 Instale as dependências:
 
-npm install
+´´´npm install´´´
 
 ---
 
