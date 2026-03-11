@@ -50,6 +50,10 @@ Instale as dependências:
 
 ```npm install```
 
+Rode o bot:
+
+```node bot.js```
+
 ---
 
 🔑 Configuração
@@ -78,4 +82,5 @@ O bot irá:
 👨‍💻 Autor
 
 Lucas
-GitHub: https://github.com/lucxslvcd Bot-Sergoias
+
+GitHub: https://github.com/lucxslvcd
